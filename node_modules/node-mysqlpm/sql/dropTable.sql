@@ -1,0 +1,2 @@
+USE ??;
+DROP TABLE ??;

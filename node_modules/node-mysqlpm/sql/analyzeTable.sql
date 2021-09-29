@@ -1,0 +1,3 @@
+USE ??;
+
+ANALYZE TABLE ??;
