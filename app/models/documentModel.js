@@ -6,7 +6,7 @@ var helper = require('./helper');
 
 var Document = function(req,document){
     
-this.DocumentId = document.DocumentId;
+//this.DocumentId = document.DocumentId;
 this.CustomerId = document.CustomerId;
 this.DocType = document.DocType;
 this.DocIdentity = document.DocIdentity;
