@@ -91,7 +91,7 @@ helper.checkPermission(req,"a",function (isPermited) {
   var reqObj = new DocumentController(req,req.body);
    var createObj = {
     
-//DocumentId:req.body.DocumentId,
+DocumentId:req.body.DocumentId,
 CustomerId:req.body.CustomerId,
 DocType:req.body.DocType,
 DocIdentity:req.body.DocIdentity,
