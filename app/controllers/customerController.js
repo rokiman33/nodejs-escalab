@@ -91,7 +91,7 @@ helper.checkPermission(req,"a",function (isPermited) {
   var reqObj = new CustomerController(req,req.body);
    var createObj = {
     
-//CustomerId:req.body.CustomerId,
+CustomerId:req.body.CustomerId,
 CustName:req.body.CustName,
 CustIdentity:req.body.CustIdentity,
 CustCert:req.body.CustCert,
