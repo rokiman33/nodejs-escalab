@@ -6,7 +6,7 @@ var helper = require('./helper');
 
 var Customer = function(req,customer){
     
-//this.CustomerId = customer.CustomerId;
+this.CustomerId = customer.CustomerId;
 this.CustName = customer.CustName;
 this.CustIdentity = customer.CustIdentity;
 this.CustCert = customer.CustCert;
